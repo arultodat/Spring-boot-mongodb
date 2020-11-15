@@ -1,0 +1,24 @@
+create --- post
+
+http://localhost:8080/create?firstName=sathish&lastName=kumar&age=21
+
+query --- getAll
+
+http://localhost:8080/getAll
+
+query --- get
+
+http://localhost:8080/get?firstName=kumar
+
+update --- put
+
+http://localhost:8080/update?firstName=sathish&lastName=kumar&age=25
+
+delete --- delete
+
+http://localhost:8080/delete?firstName=sathish
+
+
+delete --- deleteall
+
+http://localhost:8080/deleteAll
